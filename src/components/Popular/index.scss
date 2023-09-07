@@ -1,0 +1,10 @@
+#popular {
+  padding: 100px 0;
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+  }
+}

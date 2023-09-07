@@ -1,0 +1,36 @@
+#footer {
+  background: #F1F4F8;
+  .footer {
+    &__top {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      &-card {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: start;
+        a {
+          color: var(--label-dark-color, #1c1c1c);
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .foot {
+          color: rgba(60, 60, 67, 0.6);
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+    .hr{
+      margin: 72px 0 32px 0;
+    }
+    &__bottom {
+      h1 {
+        color: rgba(60, 60, 67, 0.6);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%; /* 19.2px */
+      }
+    }
+  }
+}
