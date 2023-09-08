@@ -10,6 +10,6 @@ export const setUpStore = () => {
 };
 export type rootState = ReturnType<typeof rootReducer>;
 type AppStore = ReturnType<typeof setUpStore>;
-export type AppDispahtch = AppStore["dispatch"];
+export type AppDispatch = AppStore["dispatch"];
 
 // npm i @reduxjs/toolkit react-redux @types/react-redux axios
