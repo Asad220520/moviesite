@@ -2,7 +2,7 @@ const TopRated = () => {
   return (
     <div id="topRated">
       <div className="container">
-        <div className="topRated">topRated</div>
+        <div className="topRated">topRatedtopRated</div>
       </div>
     </div>
   );

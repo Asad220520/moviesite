@@ -1,5 +1,8 @@
+import popularSlice from "./Reducers/popularSlice";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({
+  popularSlice,
+});
 export const setUpStore = () => {
   return configureStore({
     reducer: rootReducer,

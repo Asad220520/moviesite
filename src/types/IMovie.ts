@@ -1,4 +1,4 @@
-export interface IUser {
+export interface IMovie {
   id: number;
   name: string;
   username: string;
